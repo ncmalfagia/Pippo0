@@ -1,17 +1,17 @@
 #include <stdio.h>
+int raddoppia(int primo ){
+    int risultato;
+    risultato = primo*2;
+    return risultato;
+    
+    
+    }
 int main(){
-  printf("Asdasdasds");
-  printf("Non devo essere qui");
-  printf("Ora ti elimino");
-  printf("Ho fatto una modifica!");
-  printf("ASDASDASDASDSDSD");
-  //asdasdsadas
-
-  //yyyyyyyyyyyyyyyyyy
-  //ggggggggggggggggggggggggggg
-  //hhhhhhhhhhhhhhhh
-  
-  ///aqaaasdafsdggsgsgsg
+    int a=5;
+    printf("primo , %d",a);
+    a=raddoppia(a);
+    printf("secondo, %d",a);
+    
   system("pause");
   
 }
